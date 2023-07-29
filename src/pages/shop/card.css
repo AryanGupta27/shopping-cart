@@ -1,0 +1,24 @@
+.products{
+    border: solid 2px red;
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 8px;
+}
+.prod_card{
+    border: solid 2px green;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+.prod_img{
+    height: 75%;
+    width: 75%;
+    object-fit: cover;
+}
