@@ -19,19 +19,19 @@ export const PRODUCTS = [
     {
         id:2,
         prodName: "MacBook",
-        price:999.0,
+        price:1999.0,
         prodImage:prod2,
     },
     {
         id:3,
         prodName: "Camera",
-        price:999.0,
+        price:699.0,
         prodImage:prod3,
     },
     {
         id:4,
         prodName: "Jacket",
-        price:999.0,
+        price:228.0,
         prodImage:prod4,
     },
     {
@@ -43,13 +43,13 @@ export const PRODUCTS = [
     {
         id:6,
         prodName: "T-shirt",
-        price:999.0,
+        price:120.0,
         prodImage:prod6,
     },
     {
         id:7,
         prodName: "Led Bulb",
-        price:999.0,
+        price:19.99,
         prodImage:prod7,
     },
     {
