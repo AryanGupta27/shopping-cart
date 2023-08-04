@@ -21,7 +21,7 @@ export const Shop = () => {
   return (
     <div className="shop">
       <div className="title">
-        <h1 className="shopTitle">Aryan Shop</h1>
+        <h1 className="shopTitle">Wonder Cart!</h1>
       </div>
       <div className="products">
         {PRODUCTS.map((product) => (

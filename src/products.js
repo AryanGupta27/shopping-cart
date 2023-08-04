@@ -37,25 +37,25 @@ export const PRODUCTS = [
     {
         id:5,
         prodName: "Hoodie",
-        price:999.0,
+        price:75.0,
         prodImage:prod5,
     },
     {
         id:6,
         prodName: "T-shirt",
-        price:120.0,
+        price:23.0,
         prodImage:prod6,
     },
     {
         id:7,
         prodName: "Led Bulb",
-        price:19.99,
+        price:10.0,
         prodImage:prod7,
     },
     {
         id:8,
         prodName: "Trousers",
-        price:999.0,
+        price:25.0,
         prodImage:prod8,
     },
 ];
