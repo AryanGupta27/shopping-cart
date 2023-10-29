@@ -65,6 +65,5 @@ If you'd like to contribute to this project, please follow these guidelines:
 6) Push your branch to your fork.
 7) Submit a pull request.
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
