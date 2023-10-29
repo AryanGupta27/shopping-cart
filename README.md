@@ -1,12 +1,10 @@
 # Wonder Cart
 
 Wonder Cart is a simple shopping cart application built with React.js, HTML, and CSS. This application allows users to browse a list of products, add them to a cart, and adjust the quantities in the cart. It also calculates the total price of the items in the cart.
-
-<img src="wonder-cart.png">
-<img src="wc2.png">
-
-
-
+<p align="center">
+<img  width="460" height="300" src="wonder-cart.png">
+<img  width="460" height="300" src="wc2.png">
+</p>
 
 ## Demo
 
