@@ -13,11 +13,11 @@
     /* row-gap: 8px; */
 }
 .prod_card{
-
+    /* border: solid 2px red; */
     border-radius: 15px;
     height: 80%;
     width: 75%;
-    margin: 90px;
+    margin: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,7 +26,8 @@
 
 }
 .prod_img{
-    height: 75%;
+    max-width: 100%;
+    height: auto;
     width: 75%;
     object-fit: cover;
     border-radius: 3px;
@@ -51,4 +52,31 @@
     background-color: rgb(19, 19, 19);
     color: white;
     cursor: pointer;
+  }
+  @media (max-width: 600px) {
+    .prod_card {
+      width: 90%; /* Adjust width for better mobile display */
+      margin: 40px; /* Further reduce margin for spacing on mobile */
+      
+    }
+  
+    .addToCartBtn {
+      min-width: 80px; /* Adjust button size for mobile */
+      padding-left: 8px;
+      padding-right: 8px;
+      padding-top: 4px;
+      padding-bottom: 4px;
+    }
+    .products{
+    grid-template-columns: repeat(1,1fr);
+
+    }
+    .prod_img{
+      max-width: 100%;
+      height: auto;
+      width: 75%;
+      object-fit: cover;
+      border-radius: 3px;
+      
+  }
   }

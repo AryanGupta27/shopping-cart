@@ -10,7 +10,7 @@ export const CartItem = (props) => {
       <img src={prodImage} alt={prodName} />
       <div className="desc">
         <p>
-          {" "}
+         
           <b>{prodName}</b>
         </p>
         <p>${price}</p>

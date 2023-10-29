@@ -5,12 +5,16 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    adding: 0 20px;
   }
   
   .links {
+    /* background-color: blue; */
+    /* width: 100%; */
     margin-right: 50px;
     display: flex;
     align-items: center;
+    /* justify-content: flex-end; */
   }
   
   .links a {
@@ -18,5 +22,20 @@
     font-weight: 500;
     color: black;
     margin-left: 20px;
-    font-size: 25px;
+    font-size: 2vw;
+  }
+
+  @media (max-width:600px) {
+    .navbar {
+      width: 100%;
+      height: auto;
+      
+    }
+    .links{
+      width: 100%;
+      justify-content: flex-end;
+    }
+    .links a{
+    font-size: 5vw;
+    }
   }
